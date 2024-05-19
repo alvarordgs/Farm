@@ -11,7 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Farm"
-        tools:targetApi="31">
+        >
+        <activity
+            android:name=".EditFarm"
+            android:exported="false" />
+        <activity
+            android:name=".BackupDAO"
+            android:exported="false" />
+        <activity
+            android:name=".Backup"
+            android:exported="false" />
+        <activity
+            android:name=".FarmAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".FarmDAO"
+            android:exported="false" />
+        <activity
+            android:name=".ListFarm"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterFarm"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
